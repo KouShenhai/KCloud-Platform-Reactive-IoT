@@ -1,0 +1,10 @@
+server:
+  port: 20000
+
+spring:
+  application:
+    name: KCloud-Platform-Reactive-IoT
+  r2dbc:
+    url: r2dbc:postgresql://192.168.1.204:5432/kcloud_platform_iot
+    password: root
+    username: laokou123
